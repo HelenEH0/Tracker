@@ -5,15 +5,19 @@
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Klee One', cursive;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    background: #ED4264;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264); 
-    background: linear-gradient(to right, #FFEDBC, #ED4264); 
+    background: #232526;  
+    background: -webkit-linear-gradient(to right, #414345, #232526);  
+    background: linear-gradient(to right, #414345, #232526); 
 
+}
+
+#selectedmonth{
+   border-radius: 10px; 
 }
 
 .app h1 {
@@ -23,11 +27,11 @@ body {
 
 h2 {
     font-size: 1.2em;
-    text-transform: uppercase;
+    
     margin-bottom: 10px;
 }
 
-.balance-container #balance {
+.balance-container #balance #monthlybalance{
     font-size: 1.5em;
 }
 
@@ -52,7 +56,7 @@ h2 {
 }
 
 #income, #expense, #monthlyincome, #monthlyexpense {
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 #income {
@@ -167,9 +171,9 @@ h2 {
 }
 
 #incomeBtn {
-    background-color: var(--income);
+    background-color: #37E221;
 }
 
 #expenseBtn {
-    background-color: var(--expense);
+    background-color: #E12222;
 }

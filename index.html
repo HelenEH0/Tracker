@@ -4,13 +4,13 @@
         <title>Expense Tracker</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="app">
-            <h1>Expense Tracker</h1>
+            <h1>EXPENSE TRACKER</h1>
             <label for="selectedmonth">Choose a month:</label>
             <select onchange="onMonthChanged()" id="selectedmonth" class="months" name="selectedmonth">
             <option value="1">January</option>
@@ -63,7 +63,7 @@
             <div class="form-container">
                 <h2>Add new transaction</h2>
                 <form onsubmit="return false;">
-                    <label for="name">Name</label>
+                    <label for="name">Description</label>
                     <input id="name" type="text">
                     <label for="amount">Amount</label>
                     <input id="amount" type="number">
